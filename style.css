@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+background-color: #F6F4EB;
+}
+.head{
+    height: 75px;
+    background-color: #2A629A;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    width: 100%;
+}
+.hello {
+    font-family: "Cookie";
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+a {
+display: inline-flex;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #CAF4FF;
+    margin-right: 15px;
+    font-size: large ;
+}
+
+a:hover {
+    background-color: #6FDCE3;
+    /* text-decoration: underline; */
+}
+footer {
+    background-color: #2A629A;
+    text-align: center;
+    height: 40px;
+    align-content: center;
+    margin-top: 40px;
+    font-size: large
+
+    display: block;
+    width: 100%;
+}
+
+.hello {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    /* border: 1px solid black; */
+   margin: 75px;
+
+    font-size: 50px;
+}
+
+.t {
+    margin-top: -50px;
+    text-align: center;
+}
+section {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.w {
+ padding: 50px;
+ font-size: large;
+ width: 50%;
+ margin-left: 25%;
+}
+img {
+    margin-left: 40%;
+    
+}
+button{
+    margin-left: 46%;
+    margin-top: 20px;
+    background-color: #2A629A;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 30px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #6FDCE3;
+}
+
+.se{
+    border: 2px solid lavender;
+    margin: 20px;
+   
+}
+.headings{
+    padding-bottom: 10px;
+    text-decoration:underline;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.cir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #6FDCE3; */
+}
+.cir img{
+    height: 350px;
+    width: 200px;
+border-radius: 50%;
+    border: 10px solid #fff;
+    margin-right: 800px;
+}
+.se ul li{
+    list-style: disc;
+    }
